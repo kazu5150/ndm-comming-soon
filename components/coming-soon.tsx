@@ -43,7 +43,7 @@ export default function ComingSoon() {
   if (!mounted) return null
 
   return (
-    <div className="relative z-10 min-h-screen flex flex-col justify-center items-center px-4 py-8 md:p-4 overflow-x-hidden">
+    <div className="relative z-10 min-h-screen w-screen flex flex-col justify-center items-center px-4 py-8 overflow-hidden bg-black">
       <Particles
         id="tsparticles"
         init={particlesInit}
