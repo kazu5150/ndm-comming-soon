@@ -116,6 +116,7 @@ export default function ComingSoon() {
           },
           detectRetina: true,
         }}
+        
         className="absolute inset-0 -z-10"
       />
       <div className="text-center mb-12 md:mb-24 animate-fade-in-up">
